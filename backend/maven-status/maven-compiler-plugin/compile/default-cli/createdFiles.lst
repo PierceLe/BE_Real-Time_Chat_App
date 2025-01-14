@@ -1,0 +1,9 @@
+com/piercele/chat/ChatApplication.class
+com/piercele/chat/dto/request/MessagingRequest$MessagingRequestBuilder.class
+com/piercele/chat/chat/ChatMessage$ChatMessageBuilder.class
+com/piercele/chat/chat/ChatController.class
+com/piercele/chat/chat/MessageType.class
+com/piercele/chat/chat/ChatMessage.class
+com/piercele/chat/config/WebSocketEventListener.class
+com/piercele/chat/dto/request/MessagingRequest.class
+com/piercele/chat/config/WebSocketConfig.class

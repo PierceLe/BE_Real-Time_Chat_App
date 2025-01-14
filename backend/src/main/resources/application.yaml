@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1
+    session:
+      cookie:
+        same-site: Lax  # Options: Strict, Lax, or None
+        secure: true
+
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/websocket"
+    username: root
+    password: fpt_itsm
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+jwt:
+  signerKey: "wW4pYfEUZNCa3FcB7LMqQ4PtBQEBNaTlSK03edB12Cs3/fwJ64JNGFPvlkj6+UbI"
+  valid-duration: 3600 #second
+  refreshable-duration: 36000 #in seconds
